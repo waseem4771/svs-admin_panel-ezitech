@@ -1,0 +1,19 @@
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animateFadeInUp {
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  .delay1 { animation-delay: 0.1s; opacity: 0; }
+  .delay2 { animation-delay: 0.2s; opacity: 0; }
+  .delay3 { animation-delay: 0.3s; opacity: 0; }

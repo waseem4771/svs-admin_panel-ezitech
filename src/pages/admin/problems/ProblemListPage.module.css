@@ -1,0 +1,22 @@
+
+/* Page load hone par "fade in aur upar slide" hone ki animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Har element par animation apply karne ke liye classes */
+  .animateFadeInUp {
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  /* Har element mein thora sa delay add karein taake woh ek ke baad ek aayein */
+  .delay1 { animation-delay: 0.1s; opacity: 0; }
+  .delay2 { animation-delay: 0.2s; opacity: 0; }
+  .delay3 { animation-delay: 0.3s; opacity: 0; }

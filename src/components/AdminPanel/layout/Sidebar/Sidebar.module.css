@@ -1,0 +1,33 @@
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #cbd5e1; /* slate-300 */
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  background-color: #334155; /* slate-700 */
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+/* ===== YAHAN TABDEELI KI GAI HAI ===== */
+.active {
+  /* Naya aur behtar Blue Gradient */
+  background-image: linear-gradient(90deg, #3b82f6, #2563eb); /* blue-500 to blue-600 */
+  color: #ffffff;
+  font-weight: 600;
+  /* Glow ka rang bhi blue se milta julta kar diya gaya hai */
+  box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+}
+
+.active:hover {
+  transform: translateX(0);
+}
